@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="login-container" id="loginContainer">
+
+                <form>
+                    <h1 class="login-container-h">Registration Page</h1>
+                    <div class="login-form">
+                        
+                        <div class="login-container-left"> 
+                            <div class="input-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                                
+                            </div>
+                            <div class="input-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email"  required>
+                            </div>
+                                
+                            <div class="input-group">
+                                <label for="department">Department:</label>
+                                <input type="text" id="department" name="department" placeholder="enter your department" required>
+                            </div>
+
+                        </div>
+                        <div class="login-container-right">
+                        
+                            <div class="input-group">
+                                
+                                <label for="url">Projects links:</label>
+                                <input type="url" id="url" name="url" placeholder="enter your projects links"  required>
+                            </div>
+                            
+                            <div class="input-group">
+                                <label for="Description">Description:</label>
+                                <textarea id="Description" rows="4" cols="28" name="Description" placeholder="Enter description"required></textarea>
+                            </div>
+                            <div class="input-group" style="border: none;">
+                               
+                                <label for="profileimage">Upload profile:</label>
+                                <input type="file" id="profileimage" name="profileimage" required>
+                            </div>
+                      
+                        </div>
+                    </div>
+                  <button type="submit" onclick="saveProfile()">Submit</button>       
+                   
+                </form> 
+        </div>     
+</body>
+</html>
